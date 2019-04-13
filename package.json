@@ -5,6 +5,8 @@
     "dev": "next",
     "build": "next build",
     "now-build": "yarn build",
+    "export": "next export",
+    "netlify-deploy": "yarn build && yarn export",
     "start": "next start",
     "type-check": "tsc"
   },
@@ -18,6 +20,7 @@
     "@types/next": "^7.0.6",
     "@types/react": "^16.4.16",
     "@types/react-dom": "16.0.11",
+    "@types/styled-jsx": "^2.2.8",
     "typescript": "3.2.4"
   },
   "license": "ISC"
