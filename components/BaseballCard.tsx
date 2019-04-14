@@ -1,5 +1,5 @@
 import React from 'react';
-import { breakpoints } from '../utils/theme';
+import { breakpoints, colors } from '../utils/theme';
 
 interface Props {
   name: string;
@@ -30,7 +30,7 @@ export const BaseballCard: React.FC<Props> = ({
           padding-left: 1em;
         }
         .container {
-          border: solid 1px #fff;
+          border: solid 1px ${colors.lightEmphasisColor};
           width: 25vw;
           max-width: 400px;
           padding: 10px;
@@ -56,9 +56,9 @@ export const BaseballCard: React.FC<Props> = ({
       `}</style>
       <div className="card-header">
         <img src={`/static/${imgName}`} height="84" />
-        <h3 style={{ marginLeft: 10, marginTop: 0, marginBottom: 0 }}>
+        <h2 style={{ marginLeft: 10, marginTop: 0, marginBottom: 0 }}>
           {name}
-        </h3>
+        </h2>
       </div>
       <div>
         <ul className="card-contents">

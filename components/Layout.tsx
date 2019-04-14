@@ -29,10 +29,10 @@ const Layout: React.FunctionComponent<Props> = ({
         height: 100%;
       }
       body {
-        background: ${colors.darkBackground};
-        color: ${colors.darkBodyText};
+        background: ${colors.lightBackground};
+        color: ${colors.lightBodyText};
         font-family: 'Work Sans', 'Open Sans', Helvetica, sans-serif;
-        max-width: 40em;
+        max-width: 50em;
         line-height: 1.5;
         margin: 0 auto;
         padding: 1em 6em 0em;
@@ -58,11 +58,25 @@ const Layout: React.FunctionComponent<Props> = ({
         margin-right: 10px;
       }
       h1 {
-        color: ${colors.darkEmphasisColor};
+        color: ${colors.lightEmphasisColor};
       }
       footer {
         flex: 2;
         height: 60px;
+      }
+      strong {
+        font-weight: 800;
+        font-size: 1.1em;
+        font-color: ${colors.lightEmphasisColor};
+      }
+      p {
+        text-align: justify;
+      }
+      li {
+        text-align: justify;
+      }
+      a {
+        margin-right: 0;
       }
     `}</style>
     <Nav />

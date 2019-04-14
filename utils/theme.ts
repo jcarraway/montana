@@ -5,6 +5,7 @@ export const colors = {
   darkBodyText: '#839496',
   brandColor: '#d33682',
   darkEmphasisColor: '#93a1a1',
+  lightEmphasisColor: '#586e75',
   green: '#859900',
   red: '#dc322f',
 };

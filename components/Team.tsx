@@ -6,7 +6,7 @@ interface Props {}
 export const Team: React.FC<Props> = () => {
   return (
     <div id="team">
-      <h2>Team</h2>
+      <h1>Team</h1>
       <style jsx>{`
         .container {
           display: flex;
@@ -38,7 +38,7 @@ export const Team: React.FC<Props> = () => {
           favoriteMovie="Rear Window"
           superpower="Googling things"
           weakness="Dark chocolate ice cream with peanut butter"
-          personalGoal="win the Grand Prix of Aachen"
+          personalGoal="Win the Grand Prix of Aachen (the hardest showjumping competition in the world)"
           imgName="rc_photo.png"
         />
       </div>
