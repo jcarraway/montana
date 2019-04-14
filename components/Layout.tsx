@@ -32,10 +32,10 @@ const Layout: React.FunctionComponent<Props> = ({
         background: ${colors.darkBackground};
         color: ${colors.darkBodyText};
         font-family: 'Work Sans', 'Open Sans', Helvetica, sans-serif;
-        max-width: 70em;
+        max-width: 40em;
         line-height: 1.5;
         margin: 0 auto;
-        padding: 1em 4em 0em;
+        padding: 1em 6em 0em;
         display: flex;
         flex-direction: column;
       }
@@ -57,8 +57,12 @@ const Layout: React.FunctionComponent<Props> = ({
         color: ${colors.brandColor};
         margin-right: 10px;
       }
+      h1 {
+        color: ${colors.darkEmphasisColor};
+      }
       footer {
         flex: 2;
+        height: 60px;
       }
     `}</style>
     <Nav />

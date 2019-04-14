@@ -1,18 +1,23 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link';
 
-interface Props {
-
-}
+interface Props {}
 
 export const Nav: React.FC<Props> = () => {
-    return (
-      <nav style={{ height: 40, verticalAlign: 'middle' }}>
-      <Link href="/about">
-        <a style={{ float: 'right' }}>About</a>
+  return (
+    <nav style={{ height: 40, verticalAlign: 'middle' }}>
+      <Link href="#feedback">
+        <a style={{ float: 'right' }}>Feedback</a>
       </Link>
-      <Link href="/">
-        <a style={{ float: 'right' }}>Home</a>
+      <Link href="#team">
+        <a style={{ float: 'right' }}>Team</a>
       </Link>
-    </nav>);
-}
+      <Link href="#updates">
+        <a style={{ float: 'right' }}>Updates</a>
+      </Link>
+      <Link href="#project">
+        <a style={{ float: 'right' }}>Project</a>
+      </Link>
+    </nav>
+  );
+};

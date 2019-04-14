@@ -3,22 +3,44 @@ import { breakpoints } from '../utils/theme';
 
 interface Props {
   name: string;
-  strenghts: string[];
-  weaknesses: string[];
+  role: string;
+  favoriteBook: string;
+  favoriteMovie: string;
+  superpower: string;
+  weakness: string;
+  personalGoal: string;
+  imgName: string;
 }
 
 export const BaseballCard: React.FC<Props> = ({
   name,
-  strenghts,
-  weaknesses,
+  role,
+  favoriteBook,
+  favoriteMovie,
+  superpower,
+  weakness,
+  personalGoal,
+  imgName,
 }) => {
   return (
     <div className="container">
       <style jsx>{`
+        .card-contents {
+          font-size: 0.75em;
+          padding-left: 1em;
+        }
         .container {
           border: solid 1px #fff;
           width: 25vw;
           max-width: 400px;
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+        }
+        .card-header {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
         }
         @media all and (max-width: ${breakpoints.medium}) {
           .container {
@@ -32,24 +54,32 @@ export const BaseballCard: React.FC<Props> = ({
           }
         }
       `}</style>
-      <h3>{name}</h3>
-      <div>
-        <h5>Strengths</h5>
-
-        <ul>
-          {strenghts.map(s => {
-            return <li key={`strength-${s}`}>{s}</li>;
-          })}
-        </ul>
+      <div className="card-header">
+        <img src={`/static/${imgName}`} height="84" />
+        <h3 style={{ marginLeft: 10, marginTop: 0, marginBottom: 0 }}>
+          {name}
+        </h3>
       </div>
-
       <div>
-        <h5>Weaknesses</h5>
-
-        <ul>
-          {weaknesses.map(w => {
-            return <li key={`weakness-${w}`}>{w}</li>;
-          })}
+        <ul className="card-contents">
+          <li>
+            <strong>Role:</strong> {role}
+          </li>
+          <li>
+            <strong>Favorite Book:</strong> {favoriteBook}
+          </li>
+          <li>
+            <strong>Favorite Movie:</strong> {favoriteMovie}
+          </li>
+          <li>
+            <strong>Superpower:</strong> {superpower}
+          </li>
+          <li>
+            <strong>Weakness:</strong> {weakness}
+          </li>
+          <li>
+            <strong>Personal Goal:</strong> {personalGoal}
+          </li>
         </ul>
       </div>
     </div>
