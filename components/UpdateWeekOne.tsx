@@ -7,15 +7,16 @@ export const UpdateWeekOne: React.FC<Props> = () => {
     <div>
       <h2>Week One</h2>
       <p>
-        <strong>What we are building: </strong>A day planner app that uses
-        gamification to translate your long-term goals into manageable,
-        short-term to-dos.
+        <strong>What we are building: </strong>A day planner app that helps to
+        translate your long-term goals into manageable, short-term to-dos using
+        gamification.
       </p>
       <p>
         <strong>What we accomplished this week: </strong>We accomplished more
         than we planned. We stood up a basic working prototype of the core
-        features of the app for web, iPhone, and Android. We also built a project
-        website to share updates, track our progress, and gather feedback.
+        features of the app for web, iPhone, and Android. We also built a
+        project website to share updates, track our progress, and gather
+        feedback.
       </p>
       <p>
         <strong>What we plan to accomplish next week: </strong>

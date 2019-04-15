@@ -44,8 +44,8 @@ export const Team: React.FC<Props> = () => {
       </div>
       <p>
         We’ve been partners in business and life since 2011 when we were
-        assigned to the work on. a project together in our Advanced
-        Macroeconomics class. We reside in Brooklyn with our 10-year-old husky.
+        assigned to the same project in our Advanced Macroeconomics class. We
+        live in Brooklyn with our 10-year-old husky.
       </p>
     </div>
   );

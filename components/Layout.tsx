@@ -10,7 +10,7 @@ type Props = {
 
 const Layout: React.FunctionComponent<Props> = ({
   children,
-  title = 'Random Company Name',
+  title = 'Project Aji',
 }) => (
   <div>
     <Head>
@@ -18,7 +18,7 @@ const Layout: React.FunctionComponent<Props> = ({
       <meta charSet="utf-8" />
       <meta
         name="description"
-        content="Part calendar app, part roadmap, RCN is for people who want to achieve their ultimate potential and live with no regrets."
+        content="Project Aji is a day planner app that helps to translate your long-term goals into manageable, short-term to-dos using gamification."
       />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <script

@@ -6,7 +6,7 @@ interface Props {}
 export const Project: React.FC<Props> = () => {
   return (
     <div id="project">
-      <h1 style={{ marginBottom: 0 }}>Project XBII</h1>
+      <h1 style={{ marginBottom: 0 }}>Project Aji</h1>
       <small style={{ marginTop: 0 }}>
         <Link href="#what-it-is">
           <a>What It Is</a>
@@ -30,8 +30,7 @@ export const Project: React.FC<Props> = () => {
       </small>
       <h2 id="what-it-is">What It Is</h2>
       <p>
-        A day planner app that helps you translate your long-term goals into
-        manageable, short-term to-dos.
+      A day planner app that helps to translate your long-term goals into manageable, short-term to-dos using gamification.
       </p>
       <h2 id="how-it-works">How the App Works</h2>
       <ul>
