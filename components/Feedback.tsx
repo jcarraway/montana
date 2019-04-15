@@ -41,7 +41,7 @@ export const Feedback: React.FC<Props> = () => {
       <p>
         <a href="mailto:rett@gmx.com?Subject=Project%20Name%20Feedback">
           Send us an email
-        </a>
+        </a>{' '}
         📧
       </p>
     </div>

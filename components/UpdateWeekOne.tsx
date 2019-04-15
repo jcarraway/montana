@@ -14,7 +14,7 @@ export const UpdateWeekOne: React.FC<Props> = () => {
       <p>
         <strong>What we accomplished this week: </strong>We accomplished more
         than we planned. We stood up a basic working prototype of the core
-        features of app for web, iPhone, and Android. We also built a project
+        features of the app for web, iPhone, and Android. We also built a project
         website to share updates, track our progress, and gather feedback.
       </p>
       <p>

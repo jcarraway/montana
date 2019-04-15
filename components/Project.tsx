@@ -30,42 +30,31 @@ export const Project: React.FC<Props> = () => {
       </small>
       <h2 id="what-it-is">What It Is</h2>
       <p>
-        A day planner app that uses gamification to translate your long-term
-        goals into manageable, short-term to-dos.
+        A day planner app that helps you translate your long-term goals into
+        manageable, short-term to-dos.
       </p>
       <h2 id="how-it-works">How the App Works</h2>
-      <p>
-        We are still refining the UI and will more to share in a couple of
-        weeks, but we’ve got the main stuff down:
-      </p>
       <ul>
         <li>
-          <strong>Start by writing down your principles & goals.</strong> A
-          pretty basic concept, but we’ve found that most people don’t do it. We
-          believe this is because no one asks about your principles & goals.
-          It’s just not table-talk material the way <em>Game of Thrones</em> is
-          - although we think it should be (more on that in a moment). The
-          process of writing down your principles & goals does something magical
-          - it forces you to <em>define</em> them. Writing is refined thinking,
-          after all.
+          <strong>Write down your principles & goals.</strong> A pretty basic
+          concept, but most people don’t do it. We believe this is because no
+          one asks about your principles & goals. It’s just not table-talk
+          material the way <em>Game of Thrones</em> is - although we think it
+          should be. Writing down your principles & goals forces you to{' '}
+          <em>define</em> them. Writing is refined thinking.
         </li>
         <br />
         <li>
-          <strong>Then, start walking the walk.</strong> The best way to get
-          anywhere is by moving in that direction. Goals work the same way - the
-          best way to achieve them is to start working towards them. We believe
-          it’s best to do this every day, with your principles as your guide.
-          We're building a tool that helps you do just that. From planning, to
-          action, to reflection, this quick daily routine is like a gym for your
-          life.
+          <strong>Walk the walk.</strong> The best way to reach something is to
+          move in towards it - goals are no different. We’re building a tool to
+          help you work towards your goals every day with a quick, daily
+          routine. Think of it like a gym for your life.
         </li>
         <br />
         <li>
-          <strong>Assemble your squad, your posse, your Ride or Dies.</strong>{' '}
-          Everything is better together. 👯‍ We believe no one achieves their
-          goals on their own. We want to build a new kind of social network that
-          supports your ambitions, holds you accountable for your goals, and
-          infuses real life into every conversation.
+          <strong>Assemble your squad.</strong> Everything is better together.
+          👯‍ We want to build a new type of social network that encourages
+          progress instead of ego. In other words, one you’ll actually like.
         </li>
       </ul>
       <h2 id="mission">Mission</h2>
@@ -76,37 +65,35 @@ export const Project: React.FC<Props> = () => {
       <h2 id="insight">Insight</h2>
       <p>
         We've just arrived at the most important crossroad in human history. The
-        direction we go next will determine the length and quality of the future
-        of our species.
+        direction we go next will determine quality of the future of our
+        species.
       </p>
       <p>
         For the first ~95% of human history, we were hunter-gatherers and spent
-        most of our time trying to satisfy basic needs like food, shelter, and
-        safety. In other words, <em>we were in survival mode.</em>
+        most of our time satisfying basic needs like food, shelter, and safety.
+        In other words, <em>we were in survival mode.</em>
       </p>
       <p>
-        12,000 years ago, we settled down with our new farms and started to get
-        jobs. This allowed us to trade our labor for food and such, but we were
-        definitely still in survival mode. And we stayed that way until very
-        recently.
+        12,000 years ago, we settled down with our new farms and got jobs. This
+        allowed us to trade our labor for food and such, but we were definitely
+        still in survival mode. And we stayed that way until very recently.
       </p>
       <p>
         The Digital Revolution has given us lots of cool stuff like computers
-        and the internet, but the most valuable thing it has has given us is
-        more time. In some cases, tasks that took days now take seconds and we
-        are left with more hours in the day and more days in our life. We’ve
-        finally make it out of survival mode, and just in the last 0.3% of our
-        history. How awesome is it that you are here to see it?
+        and the internet, but the most valuable thing it has given us is more
+        time. In some cases, tasks that took days now take seconds and we are
+        left with more hours in the day and more days in our life. We’ve finally
+        made it out of survival mode, and just in the last 0.3% of our history.
       </p>
-      <p>So where do we go from here? Well, we have 2 options.</p>
+      <p>So where do we go from here? We have 2 options.</p>
       <p>
         We can take our newly liberated hours and lose ourselves in an endless
         scroll or a Netflix binge. We can let ourselves be distracted by
-        short-term dopamine hits and let our egos steer the ship.
+        short-term dopamine hits.
       </p>
       <p>
         Or we can put these hours working towards something better and redefine
-        what the future can be. But first, we have to decided and it starts with
+        what the future can be. But first, we have to decide, and it starts with
         you.
       </p>
       <p>
@@ -118,12 +105,13 @@ export const Project: React.FC<Props> = () => {
         many years reading self-improvements books, studying our idols, and
         seeking life advice from other people instead of living our life. We
         realized that a lot stuff we learned was recycled from somewhere else -
-        same cake, different icing. We started to ask ourselves if was possible
-        to systematize all of this advice. We wondered{' '}
+        same cake, different icing. We started to ask ourselves if this was
+        possible to systematize all of this advice. We wondered{' '}
         <em>what if you could you just download a better life experience</em>?
-        How many years wiser would we be had been “an app for that” when we were
-        young? It was too late for us, we’d put in the time. But it wasn’t too
-        late for our little brothers, so we decided to give it a shot.
+        How many years wiser would we if there had been “an app for that” when
+        we were young? It was too late for us, we’d put in the time. But it
+        wasn’t too late for our little brothers, so we decided to give it a
+        shot.
       </p>
       <p>Of all the things we read, these inspired us the most: </p>
       <ul>
@@ -148,6 +136,12 @@ export const Project: React.FC<Props> = () => {
           by Atul Gawande
         </li>
         <li>
+          <a href="http://paulgraham.com/todo.html">The Top of My Todo List</a>
+          {' and '}
+          <a href="http://paulgraham.com/vb.html">Life is Short</a> by Paul
+          Graham
+        </li>
+        <li>
           <a href="https://bronnieware.com/blog/regrets-of-the-dying/">
             Regrets of the Dying
           </a>{' '}
@@ -160,7 +154,7 @@ export const Project: React.FC<Props> = () => {
           <a href="https://dcgross.com/introspect-yourself/">
             Introspect Yourself
           </a>
-          ,
+          ,{' '}
           <a href="https://dcgross.com/how-to-level-up/">
             Setting Personal KPIs
           </a>

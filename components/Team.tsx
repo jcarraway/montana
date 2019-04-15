@@ -43,10 +43,12 @@ export const Team: React.FC<Props> = () => {
         />
       </div>
       <p>
-        Tayler & Rett have been partners, in both business and life, since 2011
-        when they were assigned to the same project in their Advanced
-        Macroeconomics class. Hailing from the south, they currently reside in
-        Brooklyn with their 10 year-old husky.{' '}
+        <a href="https://www.linkedin.com/in/tayler-kost">Tayler</a> &{' '}
+        <a href="https://www.linkedin.com/in/rett-carraway-29230531/">Rett</a>{' '}
+        have been partners, in both business and life, since 2011 when they were
+        assigned to the same project in their Advanced Macroeconomics class.
+        Hailing from the south, they currently reside in Brooklyn with their 10
+        year-old husky.{' '}
       </p>
     </div>
   );
