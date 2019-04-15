@@ -46,7 +46,7 @@ export const Project: React.FC<Props> = () => {
         <br />
         <li>
           <strong>Walk the walk.</strong> The best way to reach something is to
-          move in towards it - goals are no different. We’re building a tool to
+          move towards it - goals are no different. We’re building a tool to
           help you work towards your goals every day with a quick, daily
           routine. Think of it like a gym for your life.
         </li>
@@ -64,12 +64,11 @@ export const Project: React.FC<Props> = () => {
       </p>
       <h2 id="insight">Insight</h2>
       <p>
-        We've just arrived at the most important crossroad in human history. The
-        direction we go next will determine quality of the future of our
-        species.
+        We've just arrived at the most important crossroads in human history.
+        The direction we go next will determine the quality of our future.
       </p>
       <p>
-        For the first ~95% of human history, we were hunter-gatherers and spent
+        For the first ~95% of our history, we were hunter-gatherers and spent
         most of our time satisfying basic needs like food, shelter, and safety.
         In other words, <em>we were in survival mode.</em>
       </p>
@@ -79,11 +78,11 @@ export const Project: React.FC<Props> = () => {
         still in survival mode. And we stayed that way until very recently.
       </p>
       <p>
-        The Digital Revolution has given us lots of cool stuff like computers
-        and the internet, but the most valuable thing it has given us is more
-        time. In some cases, tasks that took days now take seconds and we are
-        left with more hours in the day and more days in our life. We’ve finally
-        made it out of survival mode, and just in the last 0.3% of our history.
+        The Digital Revolution has given us lots of cool stuff, but the most
+        valuable thing it has given us is time. Things that used to take days
+        now take seconds. We’ve gotten back more time in our day and more days
+        in our life. We’ve made it out of survival mode, and just in the last
+        0.3% of our history.
       </p>
       <p>So where do we go from here? We have 2 options.</p>
       <p>
@@ -92,26 +91,21 @@ export const Project: React.FC<Props> = () => {
         short-term dopamine hits.
       </p>
       <p>
-        Or we can put these hours working towards something better and redefine
-        what the future can be. But first, we have to decide, and it starts with
-        you.
+        Or we can spend these hours working towards something better and
+        redefine what the future could be. But first, we have to decide, and it
+        starts with you.
       </p>
       <p>
         <em>What are you doing today?</em>
       </p>
       <h2 id="inspiration">Inspiration</h2>
       <p>
-        We were inspired to start working on this project after spending too
-        many years reading self-improvements books, studying our idols, and
-        seeking life advice from other people instead of living our life. We
-        realized that a lot stuff we learned was recycled from somewhere else -
-        same cake, different icing. We started to ask ourselves if this was
-        possible to systematize all of this advice. We wondered{' '}
-        <em>what if you could you just download a better life experience</em>?
-        How many years wiser would we if there had been “an app for that” when
-        we were young? It was too late for us, we’d put in the time. But it
-        wasn’t too late for our little brothers, so we decided to give it a
-        shot.
+        We started this project after reading too many self-improvements books,
+        articles, and blogs. Most of the advice we got was recycled from
+        somewhere else - same cake, different icing. So we asked ourselves if it
+        was possible to systematize all of this advice. We wondered what would
+        it be like to just download a better life experience? We wanted an app
+        like that so we decided to build it.
       </p>
       <p>Of all the things we read, these inspired us the most: </p>
       <ul>

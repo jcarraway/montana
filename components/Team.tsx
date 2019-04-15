@@ -25,9 +25,9 @@ export const Team: React.FC<Props> = () => {
           name="Tayler Kost"
           role="Design, UX, & Strategy"
           favoriteBook="Harry Potter and the Goblet of Fire"
-          favoriteMovie="Legends of the Fall (don’t @ me)"
-          superpower="Can turn anything into a narrative with only her mind"
-          weakness="Art museums & estate sales"
+          favoriteMovie="Legends of the Fall"
+          superpower="Can turn anything into a narrative"
+          weakness="Art museums"
           personalGoal="Write a novel with my grandmother"
           imgName="tk_photo.png"
         />
@@ -43,12 +43,9 @@ export const Team: React.FC<Props> = () => {
         />
       </div>
       <p>
-        <a href="https://www.linkedin.com/in/tayler-kost">Tayler</a> &{' '}
-        <a href="https://www.linkedin.com/in/rett-carraway-29230531/">Rett</a>{' '}
-        have been partners, in both business and life, since 2011 when they were
-        assigned to the same project in their Advanced Macroeconomics class.
-        Hailing from the south, they currently reside in Brooklyn with their 10
-        year-old husky.{' '}
+        We’ve been partners in business and life since 2011 when we were
+        assigned to the work on. a project together in our Advanced
+        Macroeconomics class. We reside in Brooklyn with our 10-year-old husky.
       </p>
     </div>
   );
