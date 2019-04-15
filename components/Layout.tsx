@@ -97,7 +97,7 @@ const Layout: React.FunctionComponent<Props> = ({
     </style>
     <footer>
       <hr />
-      <span>© 2019 Project Bananas</span>
+      <span>© 2019 Project Aji</span>
     </footer>
   </div>
 );
