@@ -30,7 +30,8 @@ export const Project: React.FC<Props> = () => {
       </small>
       <h2 id="what-it-is">What It Is</h2>
       <p>
-      A day planner app that helps to translate your long-term goals into manageable, short-term to-dos using gamification.
+        A day planner app that helps to translate your long-term goals into
+        manageable, short-term to-dos using gamification.
       </p>
       <h2 id="how-it-works">How the App Works</h2>
       <ul>
@@ -46,8 +47,8 @@ export const Project: React.FC<Props> = () => {
         <li>
           <strong>Walk the walk.</strong> The best way to reach something is to
           move towards it - goals are no different. We’re building a tool to
-          help you work towards your goals every day with a quick, daily
-          routine. Think of it like a gym for your life.
+          help you work towards your goals with a quick, daily routine. Think of
+          it like a gym for your life.
         </li>
         <br />
         <li>
@@ -102,8 +103,8 @@ export const Project: React.FC<Props> = () => {
         We started this project after reading too many self-improvements books,
         articles, and blogs. Most of the advice we got was recycled from
         somewhere else - same cake, different icing. So we asked ourselves if it
-        was possible to systematize all of this advice. We wondered what would
-        it be like to just download a better life experience? We wanted an app
+        was possible to systematize all of this advice. We wondered what it
+        would be like to download a better life experience. We wanted an app
         like that so we decided to build it.
       </p>
       <p>Of all the things we read, these inspired us the most: </p>

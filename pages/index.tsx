@@ -8,7 +8,7 @@ import { Feedback } from '../components/Feedback';
 
 const IndexPage: React.FunctionComponent = () => {
   return (
-    <Layout title="Project Bananas">
+    <Layout title="Project Aji">
       <Project />
       <Updates />
       <Team />
