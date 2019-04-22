@@ -9,11 +9,11 @@ export const Project: React.FC<Props> = () => {
       <h1 style={{ marginBottom: 0 }}>Project Aji</h1>
       <small style={{ marginTop: 0 }}>
         <Link href="#what-it-is">
-          <a>What It Is</a>
+          <a>What We're Building</a>
         </Link>{' '}
         |{' '}
         <Link href="#how-it-works">
-          <a>How the App Works</a>
+          <a>Key Features</a>
         </Link>{' '}
         |{' '}
         <Link href="#mission">
@@ -28,33 +28,32 @@ export const Project: React.FC<Props> = () => {
           <a>Inspiration</a>
         </Link>
       </small>
-      <h2 id="what-it-is">What It Is</h2>
+      <h2 id="what-it-is">What We're Building</h2>
       <p>
-        A day planner app that helps to translate your long-term goals into
-        manageable, short-term to-dos using gamification.
+        We are building a day planner app that helps you make sure you are on
+        the right track to get everything you want out of life.
       </p>
-      <h2 id="how-it-works">How the App Works</h2>
+      <h2 id="how-it-works">Key Features</h2>
       <ul>
         <li>
-          <strong>Write down your principles & goals.</strong> A pretty basic
-          concept, but most people don’t do it. We believe this is because no
-          one asks about your principles & goals. It’s just not table-talk
-          material the way <em>Game of Thrones</em> is - although we think it
-          should be. Writing down your principles & goals forces you to{' '}
-          <em>define</em> them. Writing is refined thinking.
+          <strong>Day planner: </strong>The best routines are the ones you make
+          time for, so we are building a day planner that helps you focus on
+          getting things done. Routines, events, and to-dos are integrated to
+          give you a better grasp of how you spend your time.
         </li>
         <br />
         <li>
-          <strong>Walk the walk.</strong> The best way to reach something is to
+          <strong>Routines: </strong>The best way to reach something is to move
+          towards it - goals are no different. We’re building a tool to help you
+          work towards your goals with a quick, daily routine. Think of it like
+          a gym for your life.
+        </li>
+        <br />
+        <li>
+          <strong>Goal roadmaps: </strong>The best way to reach something is to
           move towards it - goals are no different. We’re building a tool to
-          help you work towards your goals with a quick, daily routine. Think of
-          it like a gym for your life.
-        </li>
-        <br />
-        <li>
-          <strong>Assemble your squad.</strong> Everything is better together.
-          👯‍ We want to build a new type of social network that encourages
-          progress instead of ego. In other words, one you’ll actually like.
+          help you clarify your goals and define the steps to achieving them.
+          It’s like a gym for your life.
         </li>
       </ul>
       <h2 id="mission">Mission</h2>
@@ -80,9 +79,9 @@ export const Project: React.FC<Props> = () => {
       <p>
         The Digital Revolution has given us lots of cool stuff, but the most
         valuable thing it has given us is time. Things that used to take days
-        now take seconds. We’ve gotten back more time in our day and more days
-        in our life. We’ve made it out of survival mode, and just in the last
-        0.3% of our history.
+        now take seconds.We’ve been given more time in our day and more days in
+        our life. We’ve finally made it out of survival mode, and only in the
+        last 0.3% of our history.
       </p>
       <p>So where do we go from here? We have 2 options.</p>
       <p>
