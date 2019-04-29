@@ -30,30 +30,33 @@ export const Project: React.FC<Props> = () => {
       </small>
       <h2 id="what-it-is">What We're Building</h2>
       <p>
-        We are building a day planner app that helps you make sure you are on
-        the right track to get everything you want out of life.
+        Strava for life management - an app that makes self-improvement easier
+        and more collaborative.
       </p>
       <h2 id="how-it-works">Key Features</h2>
       <ul>
         <li>
-          <strong>Day planner: </strong>The best routines are the ones you make
-          time for, so we are building a day planner that helps you focus on
-          getting things done. Routines, events, and to-dos are integrated to
-          give you a better grasp of how you spend your time.
+          <strong>Day planner: </strong>Planning how you spend your time is the
+          best way to ensure you are using it wisely. We haven’t found a
+          calendar app that surpasses “utilitarian.” We need one that feels like
+          magic and can replace Facebook Events, so we are building it.
         </li>
         <br />
         <li>
-          <strong>Routines: </strong>The best way to reach something is to move
-          towards it - goals are no different. We’re building a tool to help you
-          work towards your goals with a quick, daily routine. Think of it like
-          a gym for your life.
+          <strong>Goal tracker: </strong>Before you can “get the life you want”
+          you have to know what you want. Then you have to make a plan to get
+          it. We want to create a system that makes achieving challenging goals
+          attainable.
         </li>
         <br />
         <li>
-          <strong>Goal roadmaps: </strong>The best way to reach something is to
-          move towards it - goals are no different. We’re building a tool to
-          help you clarify your goals and define the steps to achieving them.
-          It’s like a gym for your life.
+          <strong>Social network: </strong>Our environment affects our ability
+          to achieve goals more than our willpower. When we consider the current
+          digital environment - filled with useless memes and endless scrolls -
+          it’s a wonder we get anything done. These apps are designed to steal
+          our attention and time in exchange for... what? We are creating a new
+          and healthier way to interact centered around the things that really
+          matter.
         </li>
       </ul>
       <h2 id="mission">Mission</h2>
@@ -176,6 +179,16 @@ export const Project: React.FC<Props> = () => {
         </li>
         <li>
           <a href="https://www.principles.com/">Principles</a> by Ray Dalio
+        </li>
+        <li>
+          <a href="https://jamesclear.com/atomic-habits">Atomic Habits</a> by
+          James Clear
+        </li>
+        <li>
+          <a href="https://www.amazon.com/Reality-Broken-Games-Better-Change/dp/0143120611">
+            Reality is Broken
+          </a>{' '}
+          by Jane McGonigal
         </li>
         <li>
           <a href="https://www.amazon.com/Time-Management-Magic-Lee-Cockerell/dp/194312731X/ref=as_li_ss_tl?_encoding=UTF8&qid=1527642084&sr=8-1&dpID=51BeFE%252BE5HL&preST=_SY344_BO1,204,203,200_QL70_&dpSrc=detail&linkCode=sl1&tag=maberica-20&linkId=d087d7d8858b72cf8e8604e8e7d5237e">
