@@ -10,7 +10,7 @@ type Props = {
 
 const Layout: React.FunctionComponent<Props> = ({
   children,
-  title = 'Project Aji',
+  title = 'Project Montana',
 }) => (
   <div>
     <Head>
@@ -18,15 +18,15 @@ const Layout: React.FunctionComponent<Props> = ({
       <meta charSet="utf-8" />
       <meta
         name="description"
-        content="Project Aji is a day planner app that helps to translate your long-term goals into manageable, short-term to-dos using gamification."
+        content="Project Montana is the home of all things related to our trip to Montana in May 2019."
       />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <script
+      {/* <script
         dangerouslySetInnerHTML={{
           __html: `window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
           heap.load("1153379299");`,
         }}
-      />
+      /> */}
       <script type="text/javascript" />
     </Head>
 
@@ -98,7 +98,7 @@ const Layout: React.FunctionComponent<Props> = ({
     </style>
     <footer>
       <hr />
-      <span>© 2019 Project Aji</span>
+      <span>© 2019 Project Montana</span>
     </footer>
   </div>
 );

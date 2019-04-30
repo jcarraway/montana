@@ -2,17 +2,13 @@ import * as React from 'react';
 
 import Layout from '../components/Layout';
 import { Project } from '../components/Project';
-import { Updates } from '../components/Updates';
-import { Team } from '../components/Team';
-import { Feedback } from '../components/Feedback';
+import { Crew } from '../components/Crew';
 
 const IndexPage: React.FunctionComponent = () => {
   return (
-    <Layout title="Project Aji">
+    <Layout title="Project Montana">
       <Project />
-      <Updates />
-      <Team />
-      <Feedback />
+      <Crew />
     </Layout>
   );
 };

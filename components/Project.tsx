@@ -6,7 +6,7 @@ interface Props {}
 export const Project: React.FC<Props> = () => {
   return (
     <div id="project">
-      <h1 style={{ marginBottom: 0 }}>Project Aji</h1>
+      <h1 style={{ marginBottom: 0 }}>Project Montana</h1>
       <small style={{ marginTop: 0 }}>
         <Link href="#what-it-is">
           <a>What We're Building</a>

@@ -1,6 +1,3 @@
-# Are you Bananas?
+# Montana
 
-## A site for our Pioneer project built with:
-
-- Typescript
-- Next.js
+## A site for our trip to Montana

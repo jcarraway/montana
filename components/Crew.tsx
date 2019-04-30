@@ -3,7 +3,7 @@ import { BaseballCard } from './BaseballCard';
 
 interface Props {}
 
-export const Team: React.FC<Props> = () => {
+export const Crew: React.FC<Props> = () => {
   return (
     <div id="team">
       <h1>Team</h1>
